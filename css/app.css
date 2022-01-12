@@ -196,6 +196,16 @@ a,
 }
 .projects .card {
     padding: 0;
+    min-height: 14em;
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.projects .card:hover img {
+    opacity: 0.85;
 }
 .projects .card img {
     width: 100%;
@@ -206,14 +216,18 @@ a,
     font-weight: 900;
     font-size: 2em;
 }
-.projects p {
-    padding: 10px;
+.project-p {
+    padding: 1em;
+    text-transform: uppercase;
+}
+.project-p p {
+    font-size: 0.8em;
 }
 .card h3 {
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 1em;
     color: black;
 }
 .card h3 a {
@@ -225,12 +239,14 @@ a,
 .card .phone {
     display: flex;
     justify-content: center;
-    margin: 10px 10px 40px;
 }
-.card .phone i {
+.card h4 {
+    font-size: 2em;
+}
+.card .phone i, .card .fa-envelope{
     font-size: 5em;
     font-weight: 600;
-    margin: 0 10px;
+    margin: 0.2em 0.2em 0.3em;
 }
 .button i {
     display: none;
@@ -282,4 +298,7 @@ footer p {
 footer p span{
     color: #3a6cf4;
 }
+
+
+
 
