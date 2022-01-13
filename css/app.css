@@ -218,7 +218,6 @@ a,
 }
 .project-p {
     padding: 1em;
-    text-transform: uppercase;
 }
 .project-p p {
     font-size: 0.8em;
@@ -229,6 +228,7 @@ a,
     align-items: center;
     margin-top: 1em;
     color: black;
+    text-transform: uppercase;
 }
 .card h3 a {
     color: brown;
@@ -298,7 +298,427 @@ footer p {
 footer p span{
     color: #3a6cf4;
 }
-
-
-
-
+@media (max-width: 319px) {
+    header {
+        padding: 5px 0;
+        font-size: 0.5em;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 5px 5px 0;
+        margin: 0;
+    }
+    .main {
+        padding: 80px 30px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h1 {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1em;
+    }
+    .services {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .card {
+        width: 15em;
+    }
+    .card i {
+        font-size: 5em;
+    }
+    .card h2 {
+        font-size: 1em;
+    }
+    .card .data {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.8em;
+    }
+    .skills {
+        padding: 50px 20px;
+    }
+    .projects {
+        padding: 50px 20px;
+    }
+    .projects .card img {
+        height: 150px;
+    }
+    .card h3 {
+        font-size: 0.8em;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+    .card .phone i, .card .fa-envelope{
+        font-size: 1.5em;
+    }
+    .button i {
+        font-size: 1.5em;
+        width: 25px;
+        height: 25px;
+        bottom: 125px;
+        right: 10px;
+    }
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+    footer p {
+        margin: 10px 10px;
+        font-size: 1em;
+    }
+}
+@media (min-width: 320px) and (max-width: 380px) {
+    header {
+        padding: 5px 0;
+        font-size: 0.5em;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 10px 5px 0;
+        margin: 0;
+    }
+    .main {
+        padding: 80px 30px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h1 {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1em;
+    }
+    .services {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .card {
+        width: 15em;
+    }
+    .card i {
+        font-size: 5em;
+    }
+    .card h2 {
+        font-size: 1em;
+    }
+    .card .data {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.8em;
+    }
+    .skills {
+        padding: 50px 20px;
+    }
+    .projects {
+        padding: 50px 20px;
+    }
+    .card h3 {
+        font-size: 0.8em;
+    }
+    .projects .card img {
+        height: 150px;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+    .card .phone i, .card .fa-envelope{
+        font-size: 1.5em;
+    }
+    .button i {
+        font-size: 1.5em;
+        width: 25px;
+        height: 25px;
+        bottom: 125px;
+        right: 10px;
+    }
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+    footer p {
+        margin: 10px 10px;
+        font-size: 1em;
+    }
+}
+@media (min-width: 381px) and (max-width: 450px) {
+    header {
+        padding: 5px 0;
+        font-size: 0.6em;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 15px 5px 0;
+        margin: 0;
+    }
+    .main {
+        padding: 80px 30px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h1 {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1em;
+    }
+    .services {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .card {
+        width: 15em;
+    }
+    .card i {
+        font-size: 5em;
+    }
+    .card h2 {
+        font-size: 1em;
+    }
+    .card .data {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.8em;
+    }
+    .skills {
+        padding: 50px 20px;
+    }
+    .projects {
+        padding: 50px 20px;
+    }
+    .card h3 {
+        font-size: 0.8em;
+    }
+    .projects .card img {
+        height: 150px;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+    .card .phone i, .card .fa-envelope{
+        font-size: 1.5em;
+    }
+    .button i {
+        font-size: 2em;
+        width: 35px;
+        height: 35px;
+        bottom: 125px;
+        right: 10px;
+    }
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+    footer p {
+        margin: 10px 10px;
+        font-size: 1em;
+    }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+    header {
+        padding: 5px 0;
+        font-size: 0.8em;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 15px 5px 0;
+        margin: 0;
+    }
+    .main {
+        padding: 80px 30px;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h1 {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1em;
+    }
+    .services {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .card {
+        width: 15em;
+    }
+    .card i {
+        font-size: 5em;
+    }
+    .card h2 {
+        font-size: 1em;
+    }
+    .card .data {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.8em;
+    }
+    .skills {
+        padding: 50px 20px;
+    }
+    .projects {
+        padding: 50px 20px;
+    }
+    .card h3 {
+        font-size: 0.8em;
+    }
+    .projects .card img {
+        height: 150px;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+    .card .phone i, .card .fa-envelope{
+        font-size: 1.5em;
+    }
+    .button i {
+        font-size: 1.8em;
+        width: 30px;
+        height: 30px;
+        bottom: 75px;
+        right: 15px;
+    }
+    footer {
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .social-icons {
+        font-size: 0.7em;
+    }
+    footer p {
+        margin: 10px 10px;
+        font-size: 1em;
+    }
+}
+@media (min-width: 651px) and (max-width: 767px) {
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 20px 5px 0;
+        margin: 0;
+    }
+    .main {
+        padding: 80px 30px;
+    }
+    .main h2 {
+        font-size: 1.5em;
+    }
+    .main h1 {
+        font-size: 2.5em;
+    }
+    .main h3 {
+        font-size: 1.5em;
+    }
+    .services {
+        padding: 50px 20px;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .card {
+        width: 15em;
+    }
+    .card i {
+        font-size: 5em;
+    }
+    .card h2 {
+        font-size: 1em;
+    }
+    .card .data {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.8em;
+    }
+    .skills {
+        padding: 50px 20px;
+    }
+    .projects {
+        padding: 50px 20px;
+    }
+    .card h3 {
+        font-size: 0.8em;
+    }
+    .projects .card img {
+        height: 150px;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+    .card .phone i, .card .fa-envelope{
+        font-size: 1.5em;
+    }
+    .button i {
+        font-size: 3em;
+        width: 50px;
+        height: 50px;
+        bottom: 70px;
+        right: 10px;
+    }
+    footer {
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .social-icons {
+        font-size: 0.7em;
+    }
+    footer p {
+        margin: 10px 10px;
+        font-size: 1em;
+    }
+}
+@media (min-width: 768px) {
+    .logo {
+        margin-right: 20px;
+    }
+    nav {
+        margin-right: 5px;
+    }
+    nav a {
+        padding: 5px 30px 0 0;
+        margin: 0;
+    }
+}
