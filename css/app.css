@@ -249,7 +249,7 @@ a,
     margin: 0.2em 0.2em 0.3em;
 }
 .button i {
-    display: none;
+    display: flex;
     font-size: 3em;
     justify-content: center;
     align-items: center;
